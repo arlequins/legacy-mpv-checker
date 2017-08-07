@@ -1,0 +1,5 @@
+.idea
+node_modules
+npm-debug.log
+/public/images/*
+!/public/images/README.md

@@ -1,0 +1,37 @@
+{
+  "name": "node-phantomjs-render-server",
+  "main": "app.js",
+  "version": "0.0.0",
+  "description": "PhantomJS, Node, Express playground",
+  "homepage": "https://github.com/ofstudio/node-phantomjs-render-server",
+  "private": true,
+  "scripts": {
+    "start": "node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ofstudio/node-phantomjs-render-server.git"
+  },
+  "keywords": [
+    "Node",
+    "Express",
+    "PhantomJS",
+    "phantom",
+    "render",
+    "rendering",
+    "screenshot",
+    "capture",
+    "server"
+  ],
+  "author": "Oleg Fomin <ofstudio@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "hbs": "^4.0.1",
+    "log4js": "^0.6.38",
+    "moment": "^2.15.1",
+    "phantom": "^2.1.21",
+    "phantomjs-prebuilt": "^2.1.12"
+  }
+}
